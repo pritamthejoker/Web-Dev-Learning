@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="server">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" placeholder="Enter your name" id="name" name="name">
+        </div>
+        <div>
+            <p> </p>
+        </div>
+        <div>
+            Sex : 
+            <input type="radio" name="sex" id="sex" value="Male">
+            <label for="sex">Male</label>
+            <input type="radio" name="sex" id="sex" value="Female">
+            <label for="sex">Female</label>
+            <input type="radio" name="sex" id="sex" value="Other">
+            <label for="sex">Other</label>
+        </div>
+        <p> </p>
+        <div>
+            <label for="country">Country : </label>
+            <select name="contry" id="country">
+                <option value="IND">India</option>
+                <option value="OTH">Other</option>
+            </select>
+        </div>
+        <p> </p>
+        <div>
+            <p>Massage : </p>
+            <textarea name="massage" id="massage" placeholder="Write massage" rows="5" cols="25"></textarea>
+        </div>
+        <p> </p>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" checked>
+            <label for="subscribe">Subscribe</label>
+        </div>
+        <p> </p>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="server">
+        <h2>Feedback Form</h2>
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" placeholder="Enter your name" name="name">
+            <p> </p>
+            <label for="email">Email : </label>
+            <input type="email" placeholder="Enter your email" name="email">
+        </div>
+        <div>
+            <p>Massage</p>
+            <textarea name="massage" id="massage" placeholder="Write your massage" rows="5" cols="25"></textarea>
+        </div>
+        <div>
+            <p>Rate us : </p>
+            <input type="radio" id="1" name="rate" value="1">
+            <label for="rate">1</label><br>
+            <input type="radio" id="2" name="rate" value="2">
+            <label for="rate">2</label><br>
+            <input type="radio" id="3" name="rate" value="3">
+            <label for="rate">3</label><br>
+            <input type="radio" id="4" name="rate" value="4">
+            <label for="rate">4</label><br>
+            <input type="radio" id="5" name="rate" value="5">
+            <label for="rate">5</label>
+
+        </div>
+        <p> </p>
+        <div>
+            <button type="submit">Send your massage</button>
+        </div>
+    </form>
+</body>
+</html>
