@@ -1,0 +1,6 @@
+#box1{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://wallpapercat.com/w/full/1/d/3/5818397.jpg);
+    background-size: cover;/* contin / cover / auto */
+}
