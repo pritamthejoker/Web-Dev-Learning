@@ -1,0 +1,14 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    transition-duration: 0.5s;/* transition sort-hand = proparty_name duration timing-function delay*/
+}
+#box1:hover{
+    border-radius: 50%;
+}
+h1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
