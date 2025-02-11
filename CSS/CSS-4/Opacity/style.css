@@ -1,0 +1,18 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+ #box1{
+    background-color: rgba(255, 0, 255, 0.3);
+ }
+ #box2{
+    opacity: 0.5;
+ }
+ body{
+    background-image: url(https://img.goodfon.com/wallpaper/nbig/b/2c/priroda-pirs-most-re-reka.webp);
+    background-size: cover;
+ }
+ h1{
+    color: white;
+ }
