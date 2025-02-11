@@ -1,0 +1,26 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    border: solid black;
+    margin: 50px;
+}
+/* Rotate proparty of trnsform */
+#box1{
+    transform: rotate(45deg);
+}
+
+/* Scale proparty of trnsform */
+#box2{
+    transform: scale(0.5,1.5);/* can be writen like scale(0.5) , scale X(0.5) , scale Y(0.5)*/
+}
+
+/* Transtlate proparty of trnsform */
+#box3{
+    transform: translate(50px,50px);/* can be writen like translate(50px) , translate X(50px) , translate Y(50px)*/
+}
+
+/* Rotate proparty of trnsform */
+#box4{
+    transform: skew(30deg);/* can be writen like skew(30deg,20deg) */
+}
