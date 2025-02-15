@@ -1,0 +1,11 @@
+#main{
+    border: solid black;
+    display: flex;/* we can use flex in parent div and the child are inharit the proparty of flex*/
+}
+.sub{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 5px;
+    border: solid black;
+}
